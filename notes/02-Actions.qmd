@@ -1,0 +1,7 @@
+# How Does Actions Work?
+
+- event (SHA1)
+- workflow (YAML)
+- `<repo>/.github/workflows/`
+
+![Actions Components](images/2.1-Actions_Components.png)

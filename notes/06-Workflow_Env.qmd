@@ -1,0 +1,6 @@
+# Managing Workflow Environments
+
+- name and manage `workflows` and `workflow runs`
+- use `contexts`, `environment variables`, `secrets`, and `configuration variables`
+- manage `permissions` for your workflows and deployment environments, including setting up  protection `rules` and `tokens`
+- configure and use `deployment environments` to provide destinations for deploying items from your workflow into separate areas

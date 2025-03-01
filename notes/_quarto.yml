@@ -1,0 +1,46 @@
+project:
+  type: book
+
+book:
+  title: "Notes for Learning GitHub Actions"
+  author: "Huang Tang"
+  date: today
+  #favicon: img/favicon.png
+  #site-url: https://contributor.r-project.org/rdevguide
+  repo-url: https://github.com/tangchaous/BOOK-Learning-Github-Actions
+  repo-branch: main
+  repo-actions: [edit, issue]
+  #sharing: [linkedin]
+  open-graph: true
+  #image: img/cover_page_scriberia.png
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - 01-Basics.qmd
+    - 02-Actions.qmd
+    - 03-InAnAction.qmd
+
+format:
+#  html:
+#    theme:
+#      light: cosmo
+#      dark: [cosmo, css/theme-dark.scss]
+#    include-in-header: html/header.html
+#    description-meta: "This guide is a comprehensive resource for contributors (from all levels, beginners, intermediate, and seasoned) to the R project, facilitating their onboarding and helping them navigate the contribution process."
+  pdf:
+    documentclass: scrreprt
+    include-in-header: tex/preamble.tex
+    include-before-body: tex/frontpage.tex
+#  epub:
+#    cover-image: img/cover_page_scriberia.png
+
+# book_filename: "rdevguide"
+# chapter_name: "Chapter "
+# repo: https://github.com/r-devel/rdevguide
+# url: 'https\://contributor.r-project.org/rdevguide/'
+# github-repo: "r-devel/rdevguide"
+# output_dir: docs
+# clean: [packages.bib, bookdown.bbl]
+# new_session: yes
+# edit: https://github.com/r-devel/rdevguide/edit/main/%s
+# delete_merged_file: true

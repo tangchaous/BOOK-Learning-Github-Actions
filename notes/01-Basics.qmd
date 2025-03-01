@@ -1,0 +1,20 @@
+# The Basics
+
+an end-to-end GitHub-centric SDLC process
+
+- automation platform
+- automation framework, e.g., Jenkins, Travic CI
+
+## Automation Platform
+
+everything as code
+
+- (CI/CD) workflow
+  - pipeline
+- events
+  - context 
+
+## Framework
+
+## Use Cases
+
